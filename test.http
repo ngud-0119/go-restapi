@@ -1,0 +1,14 @@
+GET http://localhost:8080/books
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "id": "4",
+  "title": "Ths Godfater",
+  "author": "Mario Puzo"
+}
+###
+
+DELETE http://localhost:8080/books/2
